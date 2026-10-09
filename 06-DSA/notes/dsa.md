@@ -118,14 +118,14 @@ Variants: first/last occurrence (lower/upper bound), rotated sorted array, searc
 ### Sorting
 | Algorithm | Best | Avg | Worst | Space | Stable? | Idea |
 |---|---|---|---|---|---|---|
-| Bubble | O(n) | O(n²) | O(n²) | O(1) | ✅ | Swap adjacent |
-| Selection | O(n²) | O(n²) | O(n²) | O(1) | ❌ | Min each pass |
-| Insertion | O(n) | O(n²) | O(n²) | O(1) | ✅ | Insert into sorted prefix (great for nearly-sorted) |
-| Merge | O(n log n) | O(n log n) | O(n log n) | O(n) | ✅ | Divide & merge |
-| **Quick** | O(n log n) | O(n log n) | **O(n²)** | O(log n) | ❌ | Partition around pivot; in-place; worst on bad pivots/sorted input |
-| Heap | O(n log n) | O(n log n) | O(n log n) | O(1) | ❌ | Build heap, extract max n times |
-| Counting | O(n+k) | O(n+k) | O(n+k) | O(k) | ✅ | Small integer range k |
-| Radix | O(d·(n+k)) | — | — | O(n+k) | ✅ | Digit-by-digit (d digits) |
+| Bubble | O(n) | O(n²) | O(n²) | O(1) | Yes | Swap adjacent |
+| Selection | O(n²) | O(n²) | O(n²) | O(1) | No | Min each pass |
+| Insertion | O(n) | O(n²) | O(n²) | O(1) | Yes | Insert into sorted prefix (great for nearly-sorted) |
+| Merge | O(n log n) | O(n log n) | O(n log n) | O(n) | Yes | Divide & merge |
+| **Quick** | O(n log n) | O(n log n) | **O(n²)** | O(log n) | No | Partition around pivot; in-place; worst on bad pivots/sorted input |
+| Heap | O(n log n) | O(n log n) | O(n log n) | O(1) | No | Build heap, extract max n times |
+| Counting | O(n+k) | O(n+k) | O(n+k) | O(k) | Yes | Small integer range k |
+| Radix | O(d·(n+k)) | — | — | O(n+k) | Yes | Digit-by-digit (d digits) |
 
 - **Stability**: equal elements keep original order (matters when sorting by secondary keys). Merge/insertion/bubble/counting stable; quick/heap/selection not.
 - **Quickselect**: kth smallest in avg O(n) — partial quicksort.
@@ -250,7 +250,7 @@ void backtrack(State s) {
 | LRU / O(1) get+put | **Hashmap + doubly linked list** |
 | Linked list cycle/middle/kth-from-end | **Fast & slow pointers** |
 
-## 💡 Interview execution framework (memorize)
+## Interview execution framework (memorize)
 1. **Clarify** — inputs, sizes (n up to 10⁵ ⇒ O(n log n) max), edge cases, duplicates.
 2. **Brute force out loud** with complexity — gives you a floor.
 3. **Optimize** — walk the pattern table above; state the bottleneck you're removing.

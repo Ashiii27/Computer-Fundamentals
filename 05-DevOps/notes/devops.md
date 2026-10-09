@@ -98,15 +98,15 @@ Client (`docker build/run/push`) → Docker daemon (containerd) → registries (
 
 ### Dockerfile essentials
 ```dockerfile
-FROM node:20-alpine                 # small base (alpine/slim/distroless)
+FROM node:20-alpine # small base (alpine/slim/distroless)
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci                          # dependency layer cached unless lockfile changes
+RUN npm ci # dependency layer cached unless lockfile changes
 COPY . .
 RUN npm run build
 ENV NODE_ENV=production
 EXPOSE 3000
-USER node                           # don't run as root
+USER node # don't run as root
 CMD ["node", "dist/main.js"]
 ```
 | Instruction | Meaning / gotcha |

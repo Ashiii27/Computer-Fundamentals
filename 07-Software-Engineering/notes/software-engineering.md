@@ -29,8 +29,8 @@
 
 ### Waterfall
 Linear phases, each completed before the next; sign-off gated.
-✅ Simple, well-documented, good for stable/regulated requirements.
-❌ Working software only at the end; change is expensive; customer sees nothing early. (Pure waterfall is rare today.)
+Pros: simple, well-documented, good for stable/regulated requirements.
+Cons: working software only at the end; change is expensive; customer sees nothing early. (Pure waterfall is rare today.)
 
 ### V-Model
 Waterfall where each dev phase pairs a test phase: requirements↔acceptance, design↔integration, coding↔unit. Verification built in; still rigid.

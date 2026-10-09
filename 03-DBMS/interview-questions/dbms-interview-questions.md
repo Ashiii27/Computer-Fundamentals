@@ -88,7 +88,7 @@ Replication: copies of the same data for availability/read scale. Partitioning: 
 ### 28. OLTP vs OLAP?
 OLTP: many short concurrent transactions, current data, row stores, normalized (banking, orders). OLAP: few complex analytical queries, historical data, columnar stores, denormalized star/snowflake schemas (dashboards, BI). They're separated because their access patterns fight each other.
 
-### 29. ✍️ Write a query for the Nth highest salary.
+### 29. Write a query for the Nth highest salary.
 ```sql
 -- Method 1: window function (N = 2 shown)
 SELECT salary FROM (
@@ -99,11 +99,11 @@ SELECT salary FROM (
 -- Method 2: MySQL
 SELECT DISTINCT salary FROM employee
 ORDER BY salary DESC
-LIMIT 1 OFFSET 1;   -- OFFSET = N-1
+LIMIT 1 OFFSET 1; -- OFFSET = N-1
 ```
 Know why DENSE_RANK is safer than ROW_NUMBER (handles ties).
 
-### 30. ✍️ Write a query to delete duplicate rows (keep the lowest id).
+### 30. Write a query to delete duplicate rows (keep the lowest id).
 ```sql
 DELETE FROM employees
 WHERE id NOT IN (
@@ -114,7 +114,7 @@ WHERE id NOT IN (
 
 ---
 
-## 💡 How to answer DBMS questions well
+## How to answer DBMS questions well
 - Contrast answers as mini-tables (DELETE/TRUNCATE/DROP, clustered/non-clustered).
 - Always attach a **trade-off** ("indexes speed reads but slow writes…", "CAP forces C vs A…").
 - Practice writing SQL by hand: joins, GROUP BY+HAVING, Nth max, dedupe — you *will* be asked to write.

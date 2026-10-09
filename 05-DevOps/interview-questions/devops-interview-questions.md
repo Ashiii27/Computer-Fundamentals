@@ -96,7 +96,7 @@ SLI: the measured indicator (p99 latency, % successful requests). SLO: your inte
 
 ---
 
-## 💡 How to answer DevOps questions well
+## How to answer DevOps questions well
 - Anchor in the **problem each tool solves**, then the tool ("we needed identical envs → containers").
 - Admit experience honestly, then show conceptual depth + a lab you've run (Play with Docker/Killercoda).
 - For scenario questions ("prod is down, pods crash-looping"), answer as a checklist: kubectl describe → logs → probes → resources → events; incident process first, fix second.

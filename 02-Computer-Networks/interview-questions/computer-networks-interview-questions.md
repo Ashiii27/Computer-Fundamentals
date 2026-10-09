@@ -96,7 +96,7 @@ A VPN creates an encrypted tunnel from your device to a VPN server at the IP lay
 
 ---
 
-## 💡 How to answer CN questions well
+## How to answer CN questions well
 - Anchor answers in **layers** ("at the transport layer this happens…") — instant structure.
 - Draw the packet journey when stuck: app → TCP → IP → Ethernet → wire.
 - Memorize the port table and the status-code buckets — they're free marks.

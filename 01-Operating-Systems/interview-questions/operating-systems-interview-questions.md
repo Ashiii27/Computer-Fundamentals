@@ -108,7 +108,7 @@ Seek time dominates disk cost, so scheduling minimizes head movement: **FCFS** (
 
 ---
 
-## 💡 How to answer OS questions well
+## How to answer OS questions well
 - Lead with a one-line definition, then contrast (tables help), then a real-world example.
 - For scheduling/Banker's/page-replacement numericals: show the Gantt chart / step table — interviewers grade your *process*.
 - Drop the right terminology (safe state, working set, stack algorithm, convoy effect) — it signals depth.

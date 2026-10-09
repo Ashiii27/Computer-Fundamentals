@@ -29,8 +29,8 @@
 5. **Measured service** — metered usage → pay-per-use
 
 ### Why organizations move
-✅ CapEx→OpEx, no idle hardware, global reach in minutes, managed services (DBs, ML, queues), elasticity.
-⚠️ Concerns: cost governance (surprise bills!), vendor lock-in, data sovereignty/compliance, network dependency, shared-security misunderstandings.
+Pros: CapEx→OpEx, no idle hardware, global reach in minutes, managed services (DBs, ML, queues), elasticity.
+Cons: cost governance (surprise bills!), vendor lock-in, data sovereignty/compliance, network dependency, shared-security misunderstandings.
 
 ---
 

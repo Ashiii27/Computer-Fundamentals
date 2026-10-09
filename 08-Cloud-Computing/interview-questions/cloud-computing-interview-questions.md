@@ -81,7 +81,7 @@ Tag everything (owner/env/cost-center) → budgets and anomaly alerts → rights
 
 ---
 
-## 💡 How to answer cloud questions well
+## How to answer cloud questions well
 - Answer conceptually first, then give provider examples ("that's S3 in AWS, Blob in Azure…").
 - Always attach trade-offs (serverless vs VMs, lock-in vs managed services).
 - For design-y prompts, structure: requirements → region/AZ layout → compute/storage/network → security/IAM → scaling/DR → cost.

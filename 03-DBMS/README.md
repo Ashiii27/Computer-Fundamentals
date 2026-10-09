@@ -1,8 +1,8 @@
-# 🗂️ DBMS (Database Management Systems)
+# DBMS (Database Management Systems)
 
 > Asked in almost every SDE interview — often mixed with live SQL writing.
 
-## 📚 What's inside
+## What's inside
 
 | Folder | Contents |
 |---|---|
@@ -10,7 +10,7 @@
 | [`interview-questions/`](./interview-questions/dbms-interview-questions.md) | 30 most frequently asked DBMS interview questions **with answers** (+ classic SQL queries to write) |
 | [`resources/`](./resources/dbms-resources.md) | Books, free courses, YouTube playlists, interactive SQL practice sites |
 
-## 🎯 Suggested revision order
+## Suggested revision order
 1. DBMS basics, 3-level architecture, keys
 2. SQL — SELECT, joins, group by/having (practice writing!)
 3. Normalization (1NF → BCNF with examples)
@@ -18,7 +18,7 @@
 5. Indexing (B+ trees, clustered vs non-clustered)
 6. Modern extras: CAP theorem, SQL vs NoSQL, sharding
 
-## ⭐ Must-know for interviews
+## Must-know for interviews
 - Primary vs unique vs foreign key; candidate vs super key
 - DELETE vs TRUNCATE vs DROP
 - All join types + write them blindfolded

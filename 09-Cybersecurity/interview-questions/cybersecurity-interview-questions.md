@@ -96,7 +96,7 @@ Three copies of data, on two different media, one kept **offline/offsite** (immu
 
 ---
 
-## 💡 How to answer security questions well
+## How to answer security questions well
 - Structure answers as: attack → impact → defense (in layers).
 - Name the standards (OWASP, NIST, CVSS) — signals professional familiarity.
 - For dev-role interviews, be strongest on Q3–Q15 (crypto, TLS, XSS/CSRF/SQLi, headers) — that's where they live.

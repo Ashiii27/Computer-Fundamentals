@@ -1,8 +1,8 @@
-# 🗂️ DSA (Data Structures & Algorithms)
+# DSA (Data Structures & Algorithms)
 
 > The gatekeeper subject — coding rounds are 70%+ of product-company interviews.
 
-## 📚 What's inside
+## What's inside
 
 | Folder | Contents |
 |---|---|
@@ -10,7 +10,7 @@
 | [`interview-questions/`](./interview-questions/dsa-interview-questions.md) | Most frequently asked DSA concept questions **with answers** (plus the approach framework) |
 | [`resources/`](./resources/dsa-resources.md) | Books, roadmaps/sheets, YouTube channels, practice platforms |
 
-## 🎯 Suggested revision order
+## Suggested revision order
 1. Complexity analysis (Big-O of every common op)
 2. Arrays & strings (two pointers, sliding window, prefix sum)
 3. Linked lists, stacks, queues
@@ -19,7 +19,7 @@
 6. Graphs: BFS/DFS, topo sort, Dijkstra, DSU
 7. Recursion & backtracking; greedy; DP classics
 
-## ⭐ Must-know for interviews
+## Must-know for interviews
 - Time/space complexity of all standard operations & sorts
 - Detect cycle in linked list (Floyd's); reverse a list
 - BFS vs DFS and when; topological sort

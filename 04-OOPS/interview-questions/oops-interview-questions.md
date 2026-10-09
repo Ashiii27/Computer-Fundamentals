@@ -99,7 +99,7 @@ Framework to answer LLD rounds: (1) clarify requirements & scope, (2) identify c
 
 ---
 
-## 💡 How to answer OOPS questions well
+## How to answer OOPS questions well
 - Pair every definition with a one-line example — interviewers filter rote learners instantly.
 - Use the language you know best, but know where Java/C++/Python differ (multiple inheritance, virtual, duck typing).
 - In design rounds, say SOLID principle names out loud while justifying choices — that's what's being graded.

@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🖥️ Computer Fundamentals — Interview Revision Hub
+# Computer Fundamentals — Interview Revision Hub
 
-### 🎯 One repo. Every core subject. Notes + Interview Q&A + Curated resources.
+### One repo. Every core subject. Notes + Interview Q&A + Curated resources.
 
 ![Subjects](https://img.shields.io/badge/subjects-9-blue?style=for-the-badge)
 ![Interview Questions](https://img.shields.io/badge/interview_Q%26A-240%2B-green?style=for-the-badge)
@@ -15,21 +15,21 @@
 
 ---
 
-## 📌 What is this repo?
+## What is this repo?
 
 Technical interviews are decided less by frameworks and more by **fundamentals** — OS, Networks, DBMS, OOPS, and increasingly DevOps, Cloud, and Security. This repository is a **structured revision hub**: for every subject you get three things, always in the same place:
 
-1. 📝 **Notes** — complete, condensed revision notes (read once before the interview)
-2. 💬 **Interview Questions** — the most frequently asked questions **with model answers**
-3. 🔗 **Resources** — hand-picked books, free courses, YouTube playlists, docs & practice sites
+1. **Notes** — complete, condensed revision notes (read once before the interview)
+2. **Interview Questions** — the most frequently asked questions **with model answers**
+3. **Resources** — hand-picked books, free courses, YouTube playlists, docs & practice sites
 
 Everything is in Markdown, so it renders beautifully on GitHub and works offline too.
 
 ---
 
-## 🗂️ Subjects
+## Subjects
 
-| # | Subject | 📝 Notes | 💬 Interview Q&A | 🔗 Resources |
+| # | Subject | Notes | Interview Q&A | Resources |
 |---|---|---|---|---|
 | 01 | **Operating Systems** | [Notes](./01-Operating-Systems/notes/operating-systems.md) | [30 Q&A](./01-Operating-Systems/interview-questions/operating-systems-interview-questions.md) | [Resources](./01-Operating-Systems/resources/operating-systems-resources.md) |
 | 02 | **Computer Networks** | [Notes](./02-Computer-Networks/notes/computer-networks.md) | [30 Q&A](./02-Computer-Networks/interview-questions/computer-networks-interview-questions.md) | [Resources](./02-Computer-Networks/resources/computer-networks-resources.md) |
@@ -45,7 +45,7 @@ Everything is in Markdown, so it renders beautifully on GitHub and works offline
 
 ---
 
-## 🏗️ Repository Structure
+## Repository Structure
 
 ```
 Computer-Fundamentals/
@@ -70,24 +70,24 @@ Computer-Fundamentals/
 
 ---
 
-## 🧭 Suggested Learning / Revision Order
+## Suggested Learning / Revision Order
 
 **If you're preparing for placements, follow this priority:**
 
 | Priority | Subject | Why |
 |---|---|---|
-| 🔴 Core (must-do) | **DSA** | Coding rounds are the first filter — 60–70% of the decision |
-| 🔴 Core (must-do) | **Operating Systems** | The most-asked fundamentals subject everywhere |
-| 🔴 Core (must-do) | **DBMS** | Almost always combined with live SQL writing |
-| 🟠 High | **Computer Networks** | "What happens when you type a URL" is a rite of passage |
-| 🟠 High | **OOPS** | Pillars + SOLID + patterns show up in every design conversation |
-| 🟡 Role-based | **DevOps / Cloud** | SDE-DevOps, backend, platform, and support-engineering roles |
-| 🟡 Role-based | **Software Engineering** | Service companies & QA roles love SDLC/testing theory |
-| 🟢 Bonus | **Cybersecurity** | Security roles + general rounds (encryption, HTTPS, XSS) |
+| Core (must-do) | **DSA** | Coding rounds are the first filter — 60–70% of the decision |
+| Core (must-do) | **Operating Systems** | The most-asked fundamentals subject everywhere |
+| Core (must-do) | **DBMS** | Almost always combined with live SQL writing |
+| High | **Computer Networks** | "What happens when you type a URL" is a rite of passage |
+| High | **OOPS** | Pillars + SOLID + patterns show up in every design conversation |
+| Role-based | **DevOps / Cloud** | SDE-DevOps, backend, platform, and support-engineering roles |
+| Role-based | **Software Engineering** | Service companies & QA roles love SDLC/testing theory |
+| Bonus | **Cybersecurity** | Security roles + general rounds (encryption, HTTPS, XSS) |
 
 ---
 
-## 🚀 How to Use This Repo (the 3-pass method)
+## How to Use This Repo (the 3-pass method)
 
 <details open>
 <summary><b>Pass 1 — Learn (weeks, not days)</b></summary>
@@ -110,24 +110,24 @@ Computer-Fundamentals/
 <details>
 <summary><b>Pass 3 — Simulate (the final 48 hours)</b></summary>
 
-- Only cheat-sheet tables + the "⭐ Must-know" lists in each subject README.
+- Only cheat-sheet tables + the " Must-know" lists in each subject README.
 - Do 1–2 mock interviews with a friend; explain "type a URL", ACID, deadlock, and the TLS handshake aloud.
 - Sleep. A rested brain retrieves; a crammed one blanks.
 
 </details>
 
-### 💡 Golden rules
-- 🗣️ **Answer out loud** — knowing ≠ communicating. Practice speaking in *definition → contrast → example* structure.
-- ⏱️ **Spaced repetition beats marathons** — revisit a subject after 3 days, then 3 weeks.
-- ✍️ **Whiteboard it** — scheduling numericals, Banker's algorithm, SQL, and LLD designs must be hand-practice.
-- 🧪 **Do one lab per subject** — capture a packet in Wireshark, run a Docker container, solve 50 SQL problems. One real experience beats ten videos.
+### Golden rules
+- **Answer out loud** — knowing ≠ communicating. Practice speaking in *definition → contrast → example* structure.
+- **Spaced repetition beats marathons** — revisit a subject after 3 days, then 3 weeks.
+- **Whiteboard it** — scheduling numericals, Banker's algorithm, SQL, and LLD designs must be hand-practice.
+- **Do one lab per subject** — capture a packet in Wireshark, run a Docker container, solve 50 SQL problems. One real experience beats ten videos.
 
 ---
 
-## ✅ Quick Revision Checklists
+## Quick Revision Checklists
 
 <details>
-<summary><b>🖥️ OS — can you answer these right now?</b></summary>
+<summary><b> OS — can you answer these right now?</b></summary>
 
 - Process vs thread vs program? · What exactly happens in a context switch?
 - The 4 deadlock conditions + how Banker's algorithm avoids deadlock?
@@ -139,7 +139,7 @@ Computer-Fundamentals/
 </details>
 
 <details>
-<summary><b>🌐 CN — can you answer these right now?</b></summary>
+<summary><b> CN — can you answer these right now?</b></summary>
 
 - All 7 OSI layers with one function + one protocol each?
 - TCP vs UDP? Why a 3-way handshake and not 2?
@@ -151,7 +151,7 @@ Computer-Fundamentals/
 </details>
 
 <details>
-<summary><b>🗄️ DBMS — can you answer these right now?</b></summary>
+<summary><b> DBMS — can you answer these right now?</b></summary>
 
 - Primary vs unique vs foreign key? DELETE vs TRUNCATE vs DROP?
 - 1NF → BCNF with one example each?
@@ -163,7 +163,7 @@ Computer-Fundamentals/
 </details>
 
 <details>
-<summary><b>🧱 OOPS — can you answer these right now?</b></summary>
+<summary><b> OOPS — can you answer these right now?</b></summary>
 
 - Encapsulation vs abstraction (the classic confusion)?
 - Overloading vs overriding — full rules + the static-method trap?
@@ -176,9 +176,9 @@ Computer-Fundamentals/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions make this better for everyone! 🎉
+Contributions make this better for everyone!
 
 1. **Fork** → create a branch (`git checkout -b feature/dbms-questions`)
 2. **Add** — new questions, clearer notes, better resources, typo fixes
@@ -187,7 +187,7 @@ Contributions make this better for everyone! 🎉
 
 Ideas welcome: new subjects (System Design, Linux, Git, Programming Languages, Agile), more questions per subject, GATE-focused notes, quiz files.
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Core structure: 9 subjects × notes / Q&A / resources
 - [ ] Subject-specific numerical practice sheets (scheduling, subnetting, Banker's)
@@ -195,15 +195,15 @@ Ideas welcome: new subjects (System Design, Linux, Git, Programming Languages, A
 - [ ] System Design & Low-Level Design folder
 - [ ] Interview experience logs + company-wise question patterns
 
-## ⭐ Support
+## Support
 
-If this repo helps you crack an interview, consider giving it a **star** ⭐ — it helps other students find it, and it keeps the motivation to expand it!
+If this repo helps you crack an interview, consider giving it a **star** — it helps other students find it, and it keeps the motivation to expand it!
 
 ---
 
 <div align="center">
 
-**Happy revising — go get that offer letter! 🎉**
+**Happy revising — go get that offer letter! **
 
 *Start here → [Operating Systems](./01-Operating-Systems/README.md) → [Computer Networks](./02-Computer-Networks/README.md) → [DBMS](./03-DBMS/README.md) → [OOPS](./04-OOPS/README.md)*
 

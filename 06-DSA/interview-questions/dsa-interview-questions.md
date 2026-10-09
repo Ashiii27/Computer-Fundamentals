@@ -96,5 +96,5 @@ Complexity is asymptotic growth ignoring constants/hardware; real time = complex
 
 ---
 
-## 💡 The 150-problem rule
+## The 150-problem rule
 Concepts get you through the Q&A; **muscle memory gets you through coding rounds**. Work NeetCode 150 or Striver's A2Z sheet (links in resources) with spaced repetition, and re-solve every failure from a blank editor 3 days later.

@@ -81,7 +81,7 @@ Reviews spread knowledge, catch defects when they're cheapest (design/logic stag
 
 ---
 
-## 💡 How to answer SE theory questions
+## How to answer SE theory questions
 - Define → compare (table if ≥ 2 items) → one concrete example → when-to-use guidance.
 - Expect "which would you choose for X project?" — always answer with trade-offs, not absolutes.
 - Map concepts to your own project experience ("we did UAT via a beta cohort…") — that's what separates 7/10 from 10/10 answers.

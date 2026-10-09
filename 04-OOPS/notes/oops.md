@@ -41,7 +41,7 @@ class Account {
 ### Abstraction — *hiding complexity, exposing intent*
 Show **what** an object does, not **how**: abstract classes and interfaces define contracts; callers depend on them. (Driving a car = steering/accelerator API, not the fuel-injection details.)
 
-> 💡 **Encapsulation vs Abstraction (the classic question)**: abstraction is a *design-level* idea — decide what to expose (the contract); encapsulation is a *language mechanism* to enforce it (private fields, access modifiers). Abstraction hides **complexity**; encapsulation hides **data**.
+> **Encapsulation vs Abstraction (the classic question)**: abstraction is a *design-level* idea — decide what to expose (the contract); encapsulation is a *language mechanism* to enforce it (private fields, access modifiers). Abstraction hides **complexity**; encapsulation hides **data**.
 
 ### Inheritance — *reuse & extension ("is-a")*
 Child class acquires parent's members, adds/overrides behavior. Types: single, multilevel (A→B→C), hierarchical (one parent, many children), multiple (many parents — C++ yes, Java classes no), hybrid. Promotes code reuse; can tightly couple classes (fragile base-class problem).
@@ -111,11 +111,11 @@ Reference to the current object — disambiguates fields from parameters, enable
 | Keywords | — | `virtual` (C++), `@Override` (Java — always annotate!) |
 
 ```java
-class Shape { double area() { return 0; } }          // overridden
+class Shape { double area() { return 0; } } // overridden
 class Circle extends Shape {
     @Override double area() { return Math.PI * r * r; }
 }
-Shape s = new Circle(2); s.area();                    // Circle's area runs
+Shape s = new Circle(2); s.area(); // Circle's area runs
 ```
 
 ---
@@ -145,7 +145,7 @@ Shape s = new Circle(2); s.area();                    // Circle's area runs
 
 ```java
 // DIP example
-interface Notifier { void send(String msg); }        // abstraction
+interface Notifier { void send(String msg); } // abstraction
 class OrderService {
     private final Notifier notifier;                  // injected
     OrderService(Notifier n) { this.notifier = n; }
@@ -215,9 +215,9 @@ Encapsulate each algorithm behind an interface; select at runtime (`PaymentServi
 ```java
 try {
     risky();
-} catch (IOException e) {          // specific first
+} catch (IOException e) { // specific first
     log(e);
-} finally {                         // cleanup — always runs (except System.exit / JVM crash)
+} finally { // cleanup — always runs (except System.exit / JVM crash)
     close();
 }
 ```
